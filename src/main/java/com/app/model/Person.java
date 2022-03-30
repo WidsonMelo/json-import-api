@@ -1,4 +1,4 @@
-package com.jsonimport.model;
+package com.app.model;
 
 import java.io.Serializable;
 

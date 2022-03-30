@@ -1,4 +1,4 @@
-package com.jsonimport.service;
+package com.app.service;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -7,9 +7,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.app.model.Person;
+import com.app.model.PersonResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jsonimport.model.Person;
-import com.jsonimport.model.PersonResponse;
 
 import lombok.extern.slf4j.Slf4j;
 

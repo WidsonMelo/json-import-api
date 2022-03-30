@@ -1,4 +1,4 @@
-package com.jsonimport.controller;
+package com.app.controller;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jsonimport.model.Person;
-import com.jsonimport.service.PersonService;
+import com.app.model.Person;
+import com.app.service.PersonService;
 
 @RestController
 public class PersonController {
